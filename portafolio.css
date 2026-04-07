@@ -1,0 +1,159 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap');
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  line-height: 1.7;
+}
+
+/* HEADER */
+header {
+  background-color: #ffffff;
+  padding: 25px;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+/* NAV */
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/* SECCIONES */
+.seccion {
+  max-width: 900px;
+  margin: auto;
+  padding: 70px 20px;
+}
+
+/* INICIO */
+.perfil-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.foto-perfil {
+  width: 160px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.info-inicio h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}
+
+/* PORTAFOLIO */
+.galeria {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.proyecto {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 15px;
+  flex: 1 1 250px;
+  transition: 0.3s;
+}
+
+.proyecto:hover {
+  transform: translateY(-4px);
+}
+
+.proyecto img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* TITULOS */
+h2, h3 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 15px;
+}
+
+/* HABILIDADES */
+.lista-habilidades {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.lista-habilidades li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* CONTACTO */
+.contacto-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.botones-contacto {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* BOTONES */
+.btn {
+  padding: 10px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 1px solid #111;
+  color: #111;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #111;
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #e5e5e5;
+  font-size: 13px;
+  color: #666;
+}
